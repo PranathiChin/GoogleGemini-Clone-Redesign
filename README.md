@@ -38,9 +38,10 @@ Make sure you have Node.js and npm installed. Then run:
   npm install
 
 3. Run the development server:
+   
   npm run dev
 
-4. Open the application
+5. Open the application
 
 🚀 Usage
 After setting up the project, you can start the development server and begin making changes to the codebase. The project uses Vite for a fast development experience, and React for building the user interface.
