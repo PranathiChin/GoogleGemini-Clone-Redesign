@@ -1,12 +1,15 @@
 import React from 'react';
+import Sidebar from './components/Sidebar/Sidebar';
+import Main from './components/Main/Main';
 
-const MyComponent = () => {
+const App = () => {
   return (
-    <div>
-      <h1>Hello, World!</h1>
-      <p>This is my first functional component using the rafce snippet.</p>
-    </div>
+    <>
+      <Sidebar/>
+      <Main />
+
+    </>
   );
 };
 
-export default MyComponent;
+export default App;
